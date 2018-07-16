@@ -5,7 +5,6 @@ import java.util.List;
 import org.shop.api.ProductService;
 import org.shop.data.Product;
 import org.shop.repository.ProductRepository;
-import org.springframework.stereotype.Service;
 
 
 public class ProductServiceImpl implements ProductService {
@@ -16,7 +15,7 @@ public class ProductServiceImpl implements ProductService {
         super();
         this.repository = repository;
     }
-    
+
     /* (non-Javadoc)
      * @see org.shop.api.ProductService#getProductById(java.lang.Long)
      */
